@@ -1,0 +1,11 @@
+configuration {
+  display-drun: "Apps";
+  drun-display-format: "{icon} {name}";
+  power-menu-display-format: "{name}";
+  font: "FiraCode Nerd Font 14";
+  modi: "drun,window,filebrowser,power-menu:rofi-power-menu";
+  show-icons: true;
+  icon-theme: "Papirus";
+}
+
+@theme "/home/toonvdw/.config/rofi/custom-theme.rasi"
